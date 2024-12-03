@@ -1,3 +1,4 @@
+
 .logo {
    width:150px;
    height: 150px;
@@ -10,14 +11,23 @@ p {
    text-align: center;
    max-width: 400px;
    align-self: center;
+   
 }
+.rover {
+   border:2px dotted #3b3b3d;
+}
+
 body {
-   display:flex;
    font-family: "permanent marker", verdana, sans-serif;
    flex-direction: column;
+   display:flex;
+   background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+   background-size: cover;
+   min-height: 100vh;
+   color:#3b3b3d;
 }
    h1 {
-   font-size: calc(1rem + 2vw);
+   font-size: calc(1rem + 1,3vw);
    text-align: center;
 }
 #koden {
