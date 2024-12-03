@@ -3,16 +3,23 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Dette var for lett</title>
+   <title>Tittel: Detektiv Wiseth</title>
    <script src ="javascript.js"></script>
-   
+   <link rel ="stylesheet" href="style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
 </head>
 <body>
    <h1>Så du kom deg hit altså?</h1>
+   <div id ="koden">
    <form onsubmit="handleFormSubmit(event)">
       <label class="kode">Hva er koden?</label>
+   <div class = "koden2">
       <input type="text" id="kode" name="kode" required />
-      <button type="submit">Sjekk koden</button>
+      <button type="submit">Send</button>
+   </div>
    </form>
+</div>
 </body>
 </html>

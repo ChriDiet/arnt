@@ -5,7 +5,7 @@ function handleFormSubmit(event) {
 
    if (kodeInput === riktigKode) {
       alert("Dette var for lett");
-      open("./pages/code_one.html")
+      open("./code_one.html")
    } else {
       alert("Det var ikke den riktige koden!");
    }

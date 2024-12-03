@@ -1,0 +1,21 @@
+body {
+   font-family: "permanent marker", verdana, sans-serif;
+}
+   h1 {
+   font-size: calc(1rem + 2vw);
+   text-align: center;
+}
+#koden {
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+
+button {
+   font-family: "permanent marker", helvetica, sans-serif;
+}
+
+p {
+   color:red;
+   border: solid 1px ;
+   background-color: pink;
+}
