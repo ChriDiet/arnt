@@ -4,6 +4,24 @@
    height: 150px;
    align-self: center;
 }
+#koden {
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+}
+
+button {
+   font-family: "permanent marker", helvetica, sans-serif;
+   background-color: rgba(255, 255, 255, 0);
+   border-radius: 5px;
+
+}
+
+input {
+   background-color: #ffffff00;
+   border: 3px solid #3b3b3d;
+   border-radius: 5px;
+}
 p {
    font-size: calc(0,5rem + 0,5vw);
 } 
@@ -11,6 +29,7 @@ p {
    text-align: center;
    max-width: 400px;
    align-self: center;
+   padding:10px;
    
 }
 .rover {
@@ -25,17 +44,9 @@ body {
    background-size: cover;
    min-height: 100vh;
    color:#3b3b3d;
+   padding:10px;
 }
    h1 {
    font-size: calc(1rem + 1,3vw);
    text-align: center;
 }
-#koden {
-   display: flex;
-   flex-direction: column;
-   text-align: center;
-
-button {
-   font-family: "permanent marker", helvetica, sans-serif;
-}
-
