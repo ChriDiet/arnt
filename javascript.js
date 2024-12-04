@@ -5,7 +5,7 @@ function handleFormSubmit(event) {
 
    if (kodeInput === riktigKode) {
       alert("Riktig!");
-      open("./code_one.html")
+      open("./code_two.html")
    } else {
       alert("Det var ikke den riktige koden!");
    }
@@ -19,7 +19,7 @@ function handleFormSubmit2(event) {
 
    if (kodeInputLower == riktigKode) {
       alert("Korrekt!");
-      open("./code_two.html")
+      open("./numeroTres.html")
    } else {
       alert("Det var ikke den riktige koden!");
    }
@@ -32,7 +32,7 @@ function handleFormSubmit3(event) {
    
    if (kodeInputLower == riktigKode) {
       alert("Ikke verst!");
-      open("./code_three.html")
+      open("./codeNumberFour.html")
    } else {
       alert("Det var ikke den riktige koden!");
    }
@@ -45,7 +45,33 @@ function handleFormSubmit4(event) {
    
    if (kodeInputLower == riktigKode) {
       alert("Denne var kanskje FOR lett?");
-      open("./code_four.html")
+      open("./nrfem.html")
+   } else {
+      alert("Det var ikke den riktige koden!");
+   }
+}
+
+function handleFormSubmit5(event) {
+   const kodeInput = document.getElementById("kode").value;
+   const riktigKode = "swift";
+   const kodeInputLower = kodeInput?.toLowerCase();
+   
+   if (kodeInputLower == riktigKode) {
+      alert("Nice!");
+      open("./codeSix.html")
+   } else {
+      alert("Det var ikke den riktige koden!");
+   }
+}
+
+function handleFormSubmit6(event) {
+   const kodeInput = document.getElementById("kode").value;
+   const riktigKode = "tyskeren øl vann pop";
+   const kodeInputLower = kodeInput?.toLowerCase();
+   
+   if (kodeInputLower == riktigKode) {
+      alert("Riktig!");
+      open("./nrSeven.html")
    } else {
       alert("Det var ikke den riktige koden!");
    }
