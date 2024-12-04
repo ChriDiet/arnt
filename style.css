@@ -25,6 +25,8 @@ input {
 }
 p {
    font-size: calc(0,5rem + 0,5vw);
+   color: #3b3b3d;
+   text-decoration: none;
 } 
 .mainSection{
    text-align: center;
