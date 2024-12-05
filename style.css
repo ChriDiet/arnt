@@ -50,6 +50,6 @@ body {
    padding:10px;
 }
    h1 {
-   font-size: calc(1rem + 1,3vw);
+   font-size: calc(1rem + 1vw);
    text-align: center;
 }

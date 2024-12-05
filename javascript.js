@@ -1,3 +1,13 @@
+function changeImage() {
+   let image = document.getElementById("klikk");
+   if (image.getAttribute('src') === "./images/logo.svg") {
+      image.src = "images/logo2.svg";
+   }
+   else {
+      image.src ="./images/logo.svg";
+   }
+}
+
 
 function handleFormSubmit(event) {
    const kodeInput = document.getElementById("kode").value;
@@ -76,6 +86,33 @@ function handleFormSubmit6(event) {
       alert("Det var ikke den riktige koden!");
    }
 }
+
+function handleFormSubmit7(event) {
+   const kodeInput = document.getElementById("kode").value;
+   const riktigKode = "4";
+   const kodeInputLower = kodeInput?.toLowerCase();
+   
+   if (kodeInputLower == riktigKode) {
+      alert("Riktig!");
+      open("./eight.html")
+   } else {
+      alert("Det var ikke den riktige koden!");
+   }
+}
+
+function handleFormSubmit8(event) {
+   const kodeInput = document.getElementById("kode").value;
+   const riktigKode = "marsipan";
+   const kodeInputLower = kodeInput?.toLowerCase();
+   
+   if (kodeInputLower == riktigKode) {
+      alert("Woop!");
+      open("./numberNi.html")
+   } else {
+      alert("Det var ikke den riktige koden!");
+   }
+}
+
 
 
 

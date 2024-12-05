@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <script src = "javascript.js"> </script>
+   <title> Oppgave 8 </title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+</head>
+<body>
+   <div class="logo">
+      <img id="klikk" onclick="changeImage();" src="./images/logo.svg"/>
+   </div>
+   <div class ="mainSection">
+      <h1> Flink! </h1>
+      <p>  </p>
+      <p></p>
+      <p></p>
+      
+         <div id ="koden">
+            <form onsubmit="handleFormSubmit8(event)">
+               <label class="kode">Svaret?</label>
+            <div class = "koden1">
+               <input type="text" id="kode" name="kode" required />
+               <button type="submit">Send</button>
+            </div>
+            </form>
+         </div>
+</body>
+</html>
