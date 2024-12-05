@@ -1,10 +1,8 @@
-   /* Import Google font */
-   @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
-   * {
+ * {
    margin: 0;
    padding: 0;
    box-sizing: border-box;
-   font-family: 'Open Sans', sans-serif;
+   font-family: 'Permanent Marker', sans-serif;
    }
    body {
    display: flex;
@@ -12,6 +10,7 @@
    justify-content: center;
    min-height: 100vh;
    background: #E3F2FD;
+   flex-direction: column;
    }
    .wrapper {
    width: 65vmin;
@@ -20,7 +19,7 @@
    overflow: hidden;
    flex-direction: column;
    justify-content: center;
-   border-radius: 5px;
+   border-radius: 25px;
    background: #293447;
    box-shadow: 0 20px 40px rgba(52, 87, 220, 0.2);
    }
@@ -32,13 +31,20 @@
    display: flex;
    justify-content: space-between;
    }
+   img {
+      width:150px;
+      height:150px;
+      margin:2px;
+
+   }
+
    .play-board {
    height: 100%;
    width: 100%;
    display: grid;
-   background: #212837;
    grid-template: repeat(30, 1fr) / repeat(30, 1fr);
    }
+   
    .play-board .food {
    background: #FF003D;
    }
@@ -62,8 +68,8 @@
 
    @media screen and (max-width: 800px) {
    .wrapper {
-      width: 90vmin;
-      height: 115vmin;
+      width: 70vmin;
+      height: 125vmin;
    }
    .game-details {
       font-size: 1rem;
