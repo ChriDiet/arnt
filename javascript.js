@@ -102,7 +102,7 @@ function handleFormSubmit7(event) {
 
 function handleFormSubmit8(event) {
    const kodeInput = document.getElementById("kode").value;
-   const riktigKode = "marsipan";
+   const riktigKode = "snøfnugg";
    const kodeInputLower = kodeInput?.toLowerCase();
    
    if (kodeInputLower == riktigKode) {

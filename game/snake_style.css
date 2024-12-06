@@ -68,8 +68,8 @@
 
    @media screen and (max-width: 800px) {
    .wrapper {
-      width: 70vmin;
-      height: 125vmin;
+      width: 90vmin;
+      height: 115vmin;
    }
    .game-details {
       font-size: 1rem;
