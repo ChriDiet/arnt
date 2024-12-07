@@ -93,7 +93,7 @@ function handleFormSubmit7(event) {
    const kodeInputLower = kodeInput?.toLowerCase();
    
    if (kodeInputLower == riktigKode) {
-      alert("Riktig!");
+      alert("Grattis!");
       open("./eight.html")
    } else {
       alert("Det var ikke den riktige koden!");
